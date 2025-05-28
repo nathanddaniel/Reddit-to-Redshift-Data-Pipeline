@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# Airflow files
+airflow.cfg
+airflow.db
+logs/
+*.pid
+*.sqlite
+*.log
+
+# Environment variables & credentials
+.env
+*.env
+*.pem
+*.key
+*.crt
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS CLI cache
+.aws/
